@@ -1,2 +1,0 @@
-# wechatOfficialAccount_on_Raspberry
-运行在树莓派4b上的微信公众号
