@@ -26,8 +26,6 @@ def getParams(imgData):
     # 请求随机字符串，用于保证签名不可预测  
     nonce_str = ''.join(random.sample(string.ascii_letters + string.digits, 16))
     # 应用标志，这里修改成自己的id和key  
-    # app_id='2130028959'
-    # app_key='KgV0yKu1CkX2GoEi'
     params = {'app_id':appID_faceDetect_TX,
               'image':imgData,
               'time_stamp':time_stamp,
